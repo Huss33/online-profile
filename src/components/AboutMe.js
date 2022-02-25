@@ -3,9 +3,9 @@ import ProfilePic from '../Images/ProfilePic.jpg';
 
 function AboutMe() {
     return (
-        <section>
+        <section className="my-5">
+            <div className="my-2">
             <img src={ProfilePic} alt="profile picture"></img>
-            <div>
                <p>
                 Currently Alex is attending a coding bootcamp through the University of Minnesota. I am somewhat new to 
                coding but not new to computers. I am very familiar with the interworkings of computers, having built my 

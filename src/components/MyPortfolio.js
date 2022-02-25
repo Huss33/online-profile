@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Project from "./Project";
 
-function Portfolio() {
+function MyPortfolio() {
 
   const [projects] = useState([
     {
@@ -40,4 +40,4 @@ function Portfolio() {
   );
 };
 
-export default Portfolio;
+export default MyPortfolio;
