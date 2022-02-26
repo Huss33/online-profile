@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Project from "./Project";
+import MyWork from "../MyWork";
 
-function MyPortfolio() {
+function Portfolio() {
 
-  const [projects] = useState([
+  const [myWorks] = useState([
     {
       name: 'Project1-Bands-and-Brews',
       liveLink: "https://leodickenson.github.io/Project_1_uofm/",
@@ -29,10 +29,10 @@ function MyPortfolio() {
   return (
     <div>
       <div className="flex-row">
-        {projects.map((project, idx) => (
-          <Project
-            project={project}
-            key={"project" + idx}
+        {myWorks.map((myWork, idx) => (
+          <MyWork
+          myWork={myWork}
+            key={"myWork" + idx}
           />
         ))}
       </div>
@@ -40,4 +40,4 @@ function MyPortfolio() {
   );
 };
 
-export default MyPortfolio;
+export default Portfolio;

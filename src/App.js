@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Page from "./components/Page";
+import NavLink from "./components/NavLink";
+import DisplayPage from "./components/DisplayPage";
 import Footer from "./components/Footer";
 
 function App() {
-  const [pages] = useState([
+  const [DisplayPages] = useState([
     {
       name: "About Me"
     },
@@ -16,19 +16,19 @@ function App() {
     }
   ]);
 
-  const [currentPage, setCurrentPage] = useState(pages[0]);
+  const [currentPage, setCurrentPage] = useState(DisplayPages[0]);
 
   return (
     <div>
       <Header>
-        <Nav
-          pages={pages}
+        <NavLink
+          DisplayPages={DisplayPages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
-        ></Nav>
+        ></NavLink>
       </Header>
       <main>
-        <Page currentPage={currentPage}></Page>
+        <DisplayPage currentPage={currentPage}></DisplayPage>
       </main>
       <Footer />
     </div>
@@ -36,3 +36,11 @@ function App() {
 }
 
 export default App;
+
+
+// import React from "react";
+// import DisplayPage from "./components/DisplayPage";
+
+// const App = () => <DisplayPage />;
+
+// export default App;

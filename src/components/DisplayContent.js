@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PageContent = (props) => {
+const DisplayContent = (props) => {
 
   return (
     <div>
@@ -9,4 +9,4 @@ const PageContent = (props) => {
   );
 };
 
-export default PageContent;
+export default DisplayContent;

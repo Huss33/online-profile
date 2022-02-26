@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Project({ project }) {
+function MyWork({ myWork }) {
 
-  const { title, repo, link } = project;
+  const { title, repo, link } = myWork;
 
   return (
     <div className="project" key={title}>
       <img
-        src={require(`../Images/${title}.jpg`)}
+        src={require(`../Images/${title}.jpg`)} 
         alt={title}
         className="project-bg"
       />
@@ -23,4 +23,4 @@ function Project({ project }) {
   );
 }
 
-export default Project;
+export default MyWork;
