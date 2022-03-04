@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-hw/static/css/main.fc497156.css",
+    "main.js": "/react-hw/static/js/main.ba4a7a6c.js",
+    "static/media/backgroundImage.jpg": "/react-hw/static/media/backgroundImage.5bf1d31b9756dc8ccbc3.jpg",
+    "static/media/E-Commerce-Back-End.jpg": "/react-hw/static/media/E-Commerce-Back-End.dba0d39534194a46ca84.jpg",
+    "index.html": "/react-hw/index.html",
+    "main.fc497156.css.map": "/react-hw/static/css/main.fc497156.css.map",
+    "main.ba4a7a6c.js.map": "/react-hw/static/js/main.ba4a7a6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc497156.css",
+    "static/js/main.ba4a7a6c.js"
+  ]
+}

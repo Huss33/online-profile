@@ -4,22 +4,27 @@ function Footer() {
 
   const icons = [
     {
-      name: "fab fa-github",
+      name: "GitHub",
       link: "https://github.com/Huss33"
     },
     {
-      name: "fab fa-linkedin",
+      name: "linkedin",
       link: "https://www.linkedin.com/in/alexander-huss-8bba5910b/"
     },
+    {
+      name: "FaceBook",
+      link: "https://www.facebook.com/"
+    }
   ]
 
   return (
     <footer className="flex-row px-1">
+      <p className="flex-row px-1">Click to view profiles:</p>
       {icons.map(icon =>
       (
-        <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
+        <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer">{icon.name}</a>
       )
-        )}
+      )}
     </footer>
   );
 }

@@ -9,8 +9,12 @@ function App() {
     {
       name: "About Me"
     },
-    { name: "My Portfolio" },
-    { name: "Contact Me" },
+    { 
+      name: "My Portfolio" 
+    },
+    { 
+      name: "Contact Me" 
+    },
     {
       name: "My Resume"
     }
@@ -21,11 +25,11 @@ function App() {
   return (
     <div>
       <Header>
-        <NavLink
+        {/* <NavLink
           DisplayPages={DisplayPages}
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}
-        ></NavLink>
+        ></NavLink> */}
       </Header>
       <main>
         <DisplayPage currentPage={currentPage}></DisplayPage>

@@ -4,22 +4,23 @@ import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import NavLink from './NavLink';
 
 export default function DisplayPage() {
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Resume') {
-      return <Resume />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
   };
 
@@ -27,7 +28,7 @@ export default function DisplayPage() {
 
   return (
     <div>
-      <DisplayContent currentPage={currentPage} handlePageChange={handlePageChange} />
+      <NavLink currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
   );

@@ -4,10 +4,10 @@ import ProfilePic from '../../Images/ProfilePic.jpg';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About me</h1>
       <img src={ProfilePic} alt="profile picture"></img>
       <p>
-      Currently Alex is attending a coding bootcamp through the University of Minnesota. I am somewhat new to 
+      Currently Alex is attending a coding bootcamp at the University of Minnesota. I am somewhat new to 
       coding but not new to computers. I am very familiar with the interworkings of computers, having built my 
       own in December of 2020. I enjoyed building my computer so much so, that it inspired me to learn more 
       about how to use a computer to it's fullest and build a career out of it. I plan to continue my education
@@ -19,7 +19,7 @@ export default function About() {
       <p>
       Current info, current education or job, current projects or work, Alex was born in St. Paul, Minnesota and after 
       moving around the Twin Cities quite a bit over the last 20 years, has finally landed in Edina, Minnesota where
-      he has been for the last five years. (This section is unfinished) 
+      he has been for the last five years. (This section is unfinished and this portfolio is unfinished) 
       </p>
     </div>
   );
