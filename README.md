@@ -5,7 +5,7 @@ React Portfolio
 
 GitHub link: https://github.com/Huss33/react-hw
 
-Project video Link: 
+Project live link: https://huss33.github.io/react-hw/
 
 ## Authors
 
