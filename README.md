@@ -3,9 +3,9 @@
 React Portfolio
 ## Demo
 
-GitHub link: https://github.com/Huss33/react-hw
+GitHub link: https://github.com/Huss33/online-profile
 
-Project live link: https://huss33.github.io/react-hw/
+Project live link: https://huss33.github.io/online-profile/
 
 ## Authors
 

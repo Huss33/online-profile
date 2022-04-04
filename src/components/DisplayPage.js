@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DisplayContent from './DisplayContent';
+// import DisplayContent from './DisplayContent';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';

@@ -8,13 +8,13 @@ function Footer() {
       link: "https://github.com/Huss33"
     },
     {
-      name: "linkedin",
+      name: "LinkedIn",
       link: "https://www.linkedin.com/in/alexander-huss-8bba5910b/"
     },
-    {
-      name: "FaceBook",
-      link: "https://www.facebook.com/"
-    }
+    // {
+    //   name: , 
+    //   link: 
+    // }
   ]
 
   return (

@@ -41,6 +41,8 @@ function Portfolio() {
 
   return (
     <div>
+      <p>Each project includes a live link <br></br>
+      and Github link available on hover:</p>
       <div className="flex-row">
         {myWorks.map((myWork, idx) => (
           <MyWork

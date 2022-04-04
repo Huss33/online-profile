@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
-import NavLink from "./components/NavLink";
+// import NavLink from "./components/NavLink";
 import DisplayPage from "./components/DisplayPage";
 import Footer from "./components/Footer";
 
